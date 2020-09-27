@@ -60,7 +60,7 @@ class _BarBarState extends State<BarBar> with SingleTickerProviderStateMixin {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('BarBar Clock'),
+        title: Text('Bar Clock'),
         centerTitle: true,
       ),
       body: Container(

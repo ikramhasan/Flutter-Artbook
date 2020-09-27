@@ -48,7 +48,7 @@ class _ColorTestState extends State<ColorTest> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Color Test'),
+        title: Text('Animated Random Colors'),
         centerTitle: true,
       ),
       body: GestureDetector(

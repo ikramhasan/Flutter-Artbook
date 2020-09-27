@@ -19,23 +19,94 @@ import 'package:artbook/arts/sunflower.dart';
 import 'package:artbook/models/art_object.dart';
 
 final artList = [
-  ArtObject(title: 'Modern Clock', object: Clock()),
-  ArtObject(title: 'Clock of Clocks', object: ClockOfClocks()),
-  ArtObject(title: 'BarBar Clock', object: BarBar()),
-  ArtObject(title: 'Dancing Phyllotaxis', object: DancingPhyllotaxis()),
-  ArtObject(title: 'Spinnies', object: SpinniesApp()),
-  ArtObject(title: 'Color Test', object: ColorTest()),
-  ArtObject(title: 'Planet Simulator', object: PlanetSimulator()),
-  ArtObject(title: 'Algrafx', object: Algrafx()),
-  ArtObject(title: 'Boids Simulation', object: BoidSim()),
-  ArtObject(title: 'Sierpinski Triangle', object: Sierpinski()),
-  ArtObject(title: 'Animated Cirlces', object: AnimatedCircles()),
-  ArtObject(title: 'Space', object: Space()),
-  ArtObject(title: 'Game of Life', object: GameOfLife()),
-  ArtObject(title: 'Sunflowers', object: Sunflower()),
-  ArtObject(title: 'Neumorphic Clock', object: NeumorphicClock()),
-  ArtObject(title: 'Particle Playground', object: ParticlePlayground()),
   ArtObject(
-      title: 'Double Pendulum Simulation', object: DoublePendulumSimulation()),
-  ArtObject(title: 'Long Shadow Animation', object: LongShadowAnimationPage()),
+    title: 'Modern Clock',
+    object: Clock(),
+    photoUrl: 'assets/minimal-clock.png',
+  ),
+  ArtObject(
+    title: 'Clock of Clocks',
+    object: ClockOfClocks(),
+    photoUrl: 'assets/clock-of-clocks.png',
+  ),
+  ArtObject(
+    title: 'Bar Clock',
+    object: BarBar(),
+    photoUrl: 'assets/bar-clock.png',
+  ),
+  ArtObject(
+    title: 'Dancing Phyllotaxis',
+    object: DancingPhyllotaxis(),
+    photoUrl: 'assets/dancing-phyllotaxis.png',
+  ),
+  ArtObject(
+    title: 'Spinnies',
+    object: SpinniesApp(),
+    photoUrl: 'assets/spinnies.png',
+  ),
+  ArtObject(
+    title: 'Animated Random Colors',
+    object: ColorTest(),
+    photoUrl: 'assets/animated-random-colors.png',
+  ),
+  ArtObject(
+    title: 'Planet Simulator',
+    object: PlanetSimulator(),
+    photoUrl: 'assets/planet-simulator.png',
+  ),
+  ArtObject(
+    title: 'Algrafx',
+    object: Algrafx(),
+    photoUrl: 'assets/algrafx.png',
+  ),
+  ArtObject(
+    title: 'Boids Simulation',
+    object: BoidSim(),
+    photoUrl: 'assets/boids-simulation.png',
+  ),
+  ArtObject(
+    title: 'Sierpinski Triangle',
+    object: Sierpinski(),
+    photoUrl: 'assets/sierpinski-triangle.png',
+  ),
+  ArtObject(
+    title: 'Animated Cirlces',
+    object: AnimatedCircles(),
+    photoUrl: 'assets/animated-circles.png',
+  ),
+  ArtObject(
+    title: 'Space',
+    object: Space(),
+    photoUrl: 'assets/space.png',
+  ),
+  ArtObject(
+    title: 'Game of Life',
+    object: GameOfLife(),
+    photoUrl: 'assets/game-of-life.png',
+  ),
+  ArtObject(
+    title: 'Sunflowers',
+    object: Sunflower(),
+    photoUrl: 'assets/sunflowers.png',
+  ),
+  ArtObject(
+    title: 'Neumorphic Clock',
+    object: NeumorphicClock(),
+    photoUrl: 'assets/neumorphic-clock.png',
+  ),
+  ArtObject(
+    title: 'Particle Playground',
+    object: ParticlePlayground(),
+    photoUrl: 'assets/particle-playground.png',
+  ),
+  ArtObject(
+    title: 'Double Pendulum Simulation',
+    object: DoublePendulumSimulation(),
+    photoUrl: 'assets/double-pendulum.png',
+  ),
+  ArtObject(
+    title: 'Long Shadow Animation',
+    object: LongShadowAnimationPage(),
+    photoUrl: 'assets/long-shadows.png',
+  ),
 ];

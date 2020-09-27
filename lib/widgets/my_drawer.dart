@@ -6,22 +6,45 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView.separated(
-        itemBuilder: (context, index) {
-          return ListTile(
-            hoverColor: Color(0xFF444974),
-            selectedTileColor: Color(0xFF444974),
-            title: Text(
-              artList[index].title,
-              style: TextStyle(
-                color: Color(0xFFEAECFF),
+      child: Column(
+        children: [
+          Container(
+            height: 60,
+            width: double.infinity,
+            color: Color(0xFF444974),
+            child: Center(
+              child: Text(
+                'Generative Arts',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFFEAECFF),
+                ),
               ),
             ),
-            onTap: () => Get.to(artList[index].object),
-          );
-        },
-        separatorBuilder: (context, index) => Divider(),
-        itemCount: artList.length,
+          ),
+          Expanded(
+            child: ListView.separated(
+              shrinkWrap: true,
+              physics: BouncingScrollPhysics(),
+              itemBuilder: (context, index) {
+                return ListTile(
+                  hoverColor: Color(0xFF444974),
+                  selectedTileColor: Color(0xFF444974),
+                  title: Text(
+                    artList[index].title,
+                    style: TextStyle(
+                      color: Color(0xFFEAECFF),
+                    ),
+                  ),
+                  onTap: () => Get.to(artList[index].object),
+                );
+              },
+              separatorBuilder: (context, index) => Divider(),
+              itemCount: artList.length,
+            ),
+          ),
+        ],
       ),
     );
   }

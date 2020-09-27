@@ -1,3 +1,4 @@
+import 'package:artbook/widgets/art_cards.dart';
 import 'package:artbook/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -31,6 +32,8 @@ class _HomePageState extends State<HomePage> {
                 color: Color(0xFFEAECFF),
               ),
             ),
+            SizedBox(height: 15),
+            ArtCards(),
           ],
         ),
       ),
