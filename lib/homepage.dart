@@ -1,5 +1,6 @@
 import 'package:artbook/arts/algrafx.dart';
 import 'package:artbook/arts/animated_circles.dart';
+import 'package:artbook/arts/clock_of_clocks.dart';
 import 'package:artbook/arts/boid_simulation.dart';
 import 'package:artbook/arts/clock.dart';
 import 'package:artbook/arts/color_test.dart';
@@ -173,6 +174,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Game of Life',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(ClockOfClocks());
+              },
+              child: ListTile(
+                title: Text(
+                  'Clock of Clocks',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
