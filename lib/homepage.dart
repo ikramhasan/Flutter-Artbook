@@ -1,5 +1,8 @@
+import 'package:artbook/arts/algrafx.dart';
 import 'package:artbook/arts/clock.dart';
+import 'package:artbook/arts/color_test.dart';
 import 'package:artbook/arts/dancing_phyllotaxis.dart';
+import 'package:artbook/arts/planet_simulator.dart';
 import 'package:artbook/arts/spinnies.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -69,6 +72,42 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Spinnies',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(ColorTest());
+              },
+              child: ListTile(
+                title: Text(
+                  'Color Test',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(PlanetSimulator());
+              },
+              child: ListTile(
+                title: Text(
+                  'Planet Simulator',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(Algrafx());
+              },
+              child: ListTile(
+                title: Text(
+                  'Algrafx',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),

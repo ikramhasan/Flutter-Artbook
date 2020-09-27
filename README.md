@@ -9,3 +9,9 @@ A collection of generative art made using Flutter and Dart. Some by others, some
 - Dancing Phyllotaxis : [Chiziaruhoma Ogbonda](https://codepen.io/chiziaruhoma-ogbonda) for his [CodePen](https://codepen.io/chiziaruhoma-ogbonda/pen/NWxPyeo)
 
 - Spinnies : [Brian Egan](https://codepen.io/phillywiggin) for his [CodePen](https://codepen.io/phillywiggins/pen/gOaPNPY)
+
+- Color Test : [Chiziaruhoma Ogbonda](https://codepen.io/chiziaruhoma-ogbonda) for his [CodePen](https://codepen.io/chiziaruhoma-ogbonda/pen/oNjObRm)
+- 
+- Planet Simulator : [Deven Joshi](https://codepen.io/Deven-Joshi) for his [CodePen](https://codepen.io/Deven-Joshi/pen/XWmyRYK)
+- 
+- Algrafx : [rxlabz](https://codepen.io/rx-labz) for his [CodePen](https://codepen.io/rx-labz/pen/WNQoNem)
