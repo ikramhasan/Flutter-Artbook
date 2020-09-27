@@ -14,6 +14,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter ArtBook',
       theme: ThemeData(
+        brightness: Brightness.dark,
         canvasColor: Color(0xFF2D2F41),
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,

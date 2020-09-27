@@ -8,6 +8,7 @@ import 'package:artbook/arts/color_test.dart';
 import 'package:artbook/arts/dancing_phyllotaxis.dart';
 import 'package:artbook/arts/game_of_life.dart';
 import 'package:artbook/arts/neumorphic_clock.dart';
+import 'package:artbook/arts/particle_playground.dart';
 import 'package:artbook/arts/planet_simulator.dart';
 import 'package:artbook/arts/sierpinski_triangle.dart';
 import 'package:artbook/arts/space.dart';
@@ -225,6 +226,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'BarBar Clock',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(ParticlePlayground());
+              },
+              child: ListTile(
+                title: Text(
+                  'Particle Playground',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
