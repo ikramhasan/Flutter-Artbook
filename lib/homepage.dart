@@ -1,8 +1,10 @@
 import 'package:artbook/arts/algrafx.dart';
+import 'package:artbook/arts/boid_simulation.dart';
 import 'package:artbook/arts/clock.dart';
 import 'package:artbook/arts/color_test.dart';
 import 'package:artbook/arts/dancing_phyllotaxis.dart';
 import 'package:artbook/arts/planet_simulator.dart';
+import 'package:artbook/arts/sierpinski_triangle.dart';
 import 'package:artbook/arts/spinnies.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -108,6 +110,30 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Algrafx',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(BoidSim());
+              },
+              child: ListTile(
+                title: Text(
+                  'Boids Simulation',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(Sierpinski());
+              },
+              child: ListTile(
+                title: Text(
+                  'Sierpinski Triangle',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),

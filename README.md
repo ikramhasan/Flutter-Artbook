@@ -15,3 +15,7 @@ A collection of generative art made using Flutter and Dart. Some by others, some
 - Planet Simulator : [Deven Joshi](https://codepen.io/Deven-Joshi) for his [CodePen](https://codepen.io/Deven-Joshi/pen/XWmyRYK)
 - 
 - Algrafx : [rxlabz](https://codepen.io/rx-labz) for his [CodePen](https://codepen.io/rx-labz/pen/WNQoNem)
+- 
+- Boid Simulation : [Dominik Roszkowski](https://codepen.io/orestesgaolin) for his [CodePen](https://codepen.io/orestesgaolin/pen/VwvWaoo)
+- 
+- Sierpinski Triangle : [Dominik Roszkowski](https://codepen.io/orestesgaolin) for his [CodePen](https://codepen.io/orestesgaolin/pen/GRpMyOm)
