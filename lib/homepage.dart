@@ -1,4 +1,5 @@
 import 'package:artbook/arts/clock.dart';
+import 'package:artbook/arts/dancing_phyllotaxis.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -23,7 +24,7 @@ class _HomePageState extends State<HomePage> {
             DrawerHeader(
               child: Center(
                 child: Text(
-                  'Arts',
+                  'Generative Arts',
                   style: TextStyle(
                     color: Color(0xFFEAECFF),
                     fontSize: 20,
@@ -43,6 +44,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Clock',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(DancingPhyllotaxis());
+              },
+              child: ListTile(
+                title: Text(
+                  'Dancing Phyllotaxis',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
