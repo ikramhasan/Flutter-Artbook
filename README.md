@@ -19,3 +19,5 @@ A collection of generative art made using Flutter and Dart. Some by others, some
 - Boid Simulation : [Dominik Roszkowski](https://codepen.io/orestesgaolin) for his [CodePen](https://codepen.io/orestesgaolin/pen/VwvWaoo)
 - 
 - Sierpinski Triangle : [Dominik Roszkowski](https://codepen.io/orestesgaolin) for his [CodePen](https://codepen.io/orestesgaolin/pen/GRpMyOm)
+- 
+- Animated Circles : [Jean-François Michel](https://codepen.io/jfmichel) for his [CodePen](https://codepen.io/jfmichel/pen/vYLBxNK)

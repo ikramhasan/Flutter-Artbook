@@ -1,4 +1,5 @@
 import 'package:artbook/arts/algrafx.dart';
+import 'package:artbook/arts/animated_circles.dart';
 import 'package:artbook/arts/boid_simulation.dart';
 import 'package:artbook/arts/clock.dart';
 import 'package:artbook/arts/color_test.dart';
@@ -134,6 +135,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Sierpinski Triangle',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(AnimatedCircles());
+              },
+              child: ListTile(
+                title: Text(
+                  'Animated Cirlces',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
