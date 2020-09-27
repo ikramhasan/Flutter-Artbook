@@ -10,6 +10,7 @@ import 'package:artbook/arts/planet_simulator.dart';
 import 'package:artbook/arts/sierpinski_triangle.dart';
 import 'package:artbook/arts/space.dart';
 import 'package:artbook/arts/spinnies.dart';
+import 'package:artbook/arts/sunflower.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -186,6 +187,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Clock of Clocks',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(Sunflower());
+              },
+              child: ListTile(
+                title: Text(
+                  'Sunflowers',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
