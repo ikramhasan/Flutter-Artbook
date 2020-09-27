@@ -4,6 +4,7 @@ import 'package:artbook/arts/boid_simulation.dart';
 import 'package:artbook/arts/clock.dart';
 import 'package:artbook/arts/color_test.dart';
 import 'package:artbook/arts/dancing_phyllotaxis.dart';
+import 'package:artbook/arts/game_of_life.dart';
 import 'package:artbook/arts/planet_simulator.dart';
 import 'package:artbook/arts/sierpinski_triangle.dart';
 import 'package:artbook/arts/space.dart';
@@ -160,6 +161,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Space',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(GameOfLife());
+              },
+              child: ListTile(
+                title: Text(
+                  'Game of Life',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
