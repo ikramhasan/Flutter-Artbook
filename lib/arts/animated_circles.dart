@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
 import 'package:flutter/scheduler.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const int rings = 5;
 const int turnDuration = 1500;
@@ -49,7 +50,8 @@ class _AnimatedCirclesState extends State<AnimatedCircles>
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Animated Circles'),
+        title: Text('Animated Circles',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: SafeArea(

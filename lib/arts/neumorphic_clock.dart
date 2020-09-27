@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class NeumorphicClock extends StatelessWidget {
   @override
@@ -51,7 +52,8 @@ class _AnalogClockState extends State<AnalogClock> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Neumorphic Clock'),
+        title: Text('Neumorphic Clock',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: AnimatedTheme(

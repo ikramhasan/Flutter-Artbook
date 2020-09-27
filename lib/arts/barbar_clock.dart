@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppColors {
   static Color lines = const Color(0xFF73D1CC);
@@ -60,7 +61,8 @@ class _BarBarState extends State<BarBar> with SingleTickerProviderStateMixin {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Bar Clock'),
+        title: Text('Bar Clock',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Container(

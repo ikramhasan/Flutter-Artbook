@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:flutter/src/scheduler/ticker.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const double kSize = 150.0;
 
@@ -34,7 +35,8 @@ class _SierpinskiState extends State<Sierpinski> {
         backgroundColor: Color(0xFF444974),
         elevation: 0,
         centerTitle: true,
-        title: Text('Sierpinski Triangle'),
+        title: Text('Sierpinski Triangle',
+          style: GoogleFonts.quicksand(),),
         actions: [
           IconButton(
             icon: Icon(Icons.info),
@@ -53,7 +55,7 @@ class _SierpinskiState extends State<Sierpinski> {
                         ),
                         label: Text(
                           'Follow me on Twitter',
-                          style: TextStyle(color: Colors.black54),
+                          style: GoogleFonts.quicksand(color: Colors.black54),
                         ),
                         onPressed: () {
                           html.window.open(

@@ -1,11 +1,12 @@
 import 'package:artbook/arts/game_of_life.dart';
 import 'package:artbook/data/data.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ArtCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final screenHeight = MediaQuery.of(context).size.height;
     final screenWidth = MediaQuery.of(context).size.width;
     return Expanded(
       child: GridView.builder(
@@ -21,19 +22,26 @@ class ArtCards extends StatelessWidget {
             children: [
               artList[index].photoUrl == null
                   ? Container()
-                  : Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(width: 10),
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      height: 300,
-                      width: 300,
-                      child: Image.asset(
-                        artList[index].photoUrl,
-                        fit: BoxFit.cover,
+                  : InkWell(
+                      onTap: () => Get.to(artList[index].object),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(width: 10),
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        height: 300,
+                        width: 300,
+                        child: Image.asset(
+                          artList[index].photoUrl,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
-              Text(artList[index].title),
+              SizedBox(height: 8),
+              Text(
+                artList[index].title,
+                style: GoogleFonts.quicksand(fontSize: 16),
+              ),
             ],
           );
         },

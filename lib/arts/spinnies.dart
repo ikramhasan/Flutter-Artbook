@@ -1,6 +1,7 @@
 import 'dart:math' show pi;
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SpinniesApp extends StatelessWidget {
   @override
@@ -9,7 +10,8 @@ class SpinniesApp extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Spinnies'),
+        title: Text('Spinnies',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Center(

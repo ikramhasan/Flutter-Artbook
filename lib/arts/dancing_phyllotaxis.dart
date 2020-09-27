@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ArtPainter extends CustomPainter {
   final Color strokeColor;
@@ -94,7 +95,8 @@ class DancingPhyllotaxisState extends State<DancingPhyllotaxis> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Dancing Phyllotaxis'),
+        title: Text('Dancing Phyllotaxis',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Container(

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Clock extends StatefulWidget {
   @override
@@ -23,7 +24,8 @@ class _ClockState extends State<Clock> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Clock'),
+        title: Text('Clock',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Container(

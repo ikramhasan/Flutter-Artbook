@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DoublePendulumSimulation extends StatelessWidget {
   @override
@@ -9,7 +10,8 @@ class DoublePendulumSimulation extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Double Pendulum Simulation'),
+        title: Text('Double Pendulum Simulation',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: SafeArea(
@@ -206,7 +208,7 @@ class _DoublePendulumState extends State<DoublePendulum>
                   padding: const EdgeInsets.all(8.0),
                   child: FloatingActionButton.extended(
                     label: Text(animationStopped ? 'Play' : 'Stop',
-                        style: TextStyle(color: Colors.grey)),
+                        style: GoogleFonts.quicksand(color: Colors.grey)),
                     backgroundColor: Theme.of(context).primaryColorDark,
                     onPressed: () {
                       setState(() {

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Algrafx extends StatelessWidget {
   @override
@@ -304,7 +305,10 @@ class GraphScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Algrafx'),
+        title: Text(
+          'Algrafx',
+          style: GoogleFonts.quicksand(),
+        ),
         centerTitle: true,
       ),
       endDrawer: isMobileScreen
@@ -361,7 +365,7 @@ class _OnBoardingState extends State<OnBoarding> {
           color: Colors.black54,
           child: Text(
             widget.content,
-            style: TextStyle(color: Colors.white),
+            style: GoogleFonts.quicksand(color: Colors.white),
           ),
         ),
       ),
@@ -628,7 +632,8 @@ class _AppbarState extends State<Appbar> {
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.all(10),
-                child: Text('AlGrafx', style: TextStyle(color: iconColor)),
+                child: Text('AlGrafx',
+                    style: GoogleFonts.quicksand(color: iconColor)),
               ),
               SettingsBar(
                 direction: Axis.horizontal,
@@ -701,7 +706,7 @@ class _ColorSelectorState extends State<ColorSelector> {
       children: <Widget>[
         Text(
           widget.label,
-          style: TextStyle(color: labelColor.withOpacity(0.7)),
+          style: GoogleFonts.quicksand(color: labelColor.withOpacity(0.7)),
         ),
         if (widget.color != Colors.transparent)
           InkWell(
@@ -862,7 +867,7 @@ class _SettingsBarState extends State<SettingsBar> {
     final isMobileScreen = MediaQuery.of(context).size.width <= 900;
     final luminance = widget.config.backgroundColor.computeLuminance();
     final brightness = luminance > 0.5 ? Brightness.light : Brightness.dark;
-    final labelStyle = TextStyle(
+    final labelStyle = GoogleFonts.quicksand(
         color:
             brightness == Brightness.light ? Colors.black54 : Colors.white54);
 
@@ -968,7 +973,7 @@ class _SettingsBarState extends State<SettingsBar> {
             child: Text(
               'Click to draw',
               textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.white),
+              style: GoogleFonts.quicksand(color: Colors.white),
             ),
           ),
         ),

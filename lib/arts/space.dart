@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+import 'package:google_fonts/google_fonts.dart';
+
 const int maxStar = 50;
 const double maxRadius = 3;
 const double speedFactor = 0.5;
@@ -48,7 +50,8 @@ class _SpaceState extends State<Space> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Space'),
+        title: Text('Space',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Container(

@@ -1,6 +1,7 @@
 import 'package:artbook/data/data.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyDrawer extends StatelessWidget {
   @override
@@ -15,7 +16,7 @@ class MyDrawer extends StatelessWidget {
             child: Center(
               child: Text(
                 'Generative Arts',
-                style: TextStyle(
+                style: GoogleFonts.quicksand(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                   color: Color(0xFFEAECFF),
@@ -33,7 +34,7 @@ class MyDrawer extends StatelessWidget {
                   selectedTileColor: Color(0xFF444974),
                   title: Text(
                     artList[index].title,
-                    style: TextStyle(
+                    style: GoogleFonts.quicksand(
                       color: Color(0xFFEAECFF),
                     ),
                   ),

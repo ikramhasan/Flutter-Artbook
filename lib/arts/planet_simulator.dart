@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -51,7 +52,8 @@ class _PlanetSimulatorState extends State<PlanetSimulator> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Planet Simulator'),
+        title: Text('Planet Simulator',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: GestureDetector(

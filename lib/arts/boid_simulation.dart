@@ -12,6 +12,7 @@ import 'dart:html' as html;
 import 'package:flutter/material.dart';
 import 'package:flutter/src/scheduler/ticker.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const double kSize = 150.0;
 
@@ -58,7 +59,10 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         ),
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Color Test'),
+        title: Text(
+          'Boid Simulation',
+          style: GoogleFonts.quicksand(),
+        ),
         centerTitle: true,
         actions: [
           IconButton(
@@ -82,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                         ),
                         label: Text(
                           'Follow me on Twitter',
-                          style: TextStyle(color: Colors.black54),
+                          style: GoogleFonts.quicksand(color: Colors.black54),
                         ),
                         onPressed: () {
                           html.window.open(
@@ -124,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       children: [
                         Text(
                           'Speed',
-                          style: TextStyle(color: Colors.white),
+                          style: GoogleFonts.quicksand(color: Colors.white),
                         ),
                         Slider(
                           value: simulation?.speedLimit,
@@ -143,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       children: [
                         Text(
                           'Visual Range',
-                          style: TextStyle(color: Colors.white),
+                          style: GoogleFonts.quicksand(color: Colors.white),
                         ),
                         Slider(
                           value: simulation?.visualRange,
@@ -162,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       children: [
                         Text(
                           'Boids number',
-                          style: TextStyle(color: Colors.white),
+                          style: GoogleFonts.quicksand(color: Colors.white),
                         ),
                         Slider(
                           value: simulation?.numBoids?.toDouble(),
@@ -181,7 +185,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       children: [
                         Text(
                           'Turn factor',
-                          style: TextStyle(color: Colors.white),
+                          style: GoogleFonts.quicksand(color: Colors.white),
                         ),
                         Slider(
                           value: simulation?.turnFactor,

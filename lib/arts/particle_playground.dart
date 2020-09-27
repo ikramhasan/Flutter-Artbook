@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 /// https://twitter.com/creativemaybeno/status/1290173415530299392?s=20
 /// Based on https://codegolf.tk/a/321.
@@ -102,7 +103,8 @@ class _ParticlePlaygroundState extends State<ParticlePlayground> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Particle Playground'),
+        title: Text('Particle Playground',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Stack(

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ClockOfClocks extends StatefulWidget {
   const ClockOfClocks({Key key}) : super(key: key);
@@ -19,7 +20,8 @@ class _ClockOfClocksState extends State<ClockOfClocks> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Clock of Clocks'),
+        title: Text('Clock of Clocks',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Center(
@@ -111,7 +113,7 @@ class ClockLabel extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 2.0),
         child: Text(
           label,
-          style: const TextStyle(
+          style: GoogleFonts.quicksand(
             fontSize: 15.0,
             fontWeight: FontWeight.w900,
             color: Color(0x50252525),

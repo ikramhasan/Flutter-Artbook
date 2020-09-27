@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:math' as math;
 import 'dart:math';
 
+import 'package:google_fonts/google_fonts.dart';
+
 class LongShadowAnimationPage extends StatefulWidget {
   LongShadowAnimationPage({Key key}) : super(key: key);
 
@@ -57,7 +59,8 @@ class _LongShadowAnimationPageState extends State<LongShadowAnimationPage>
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Long Shadow Animation'),
+        title: Text('Long Shadow Animation',
+          style: GoogleFonts.quicksand(),),
         centerTitle: true,
       ),
       body: Center(

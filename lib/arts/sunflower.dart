@@ -5,6 +5,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
+import 'package:google_fonts/google_fonts.dart';
+
 final Color primaryColor = Colors.orange;
 final TargetPlatform platform = TargetPlatform.android;
 
@@ -69,7 +71,10 @@ class _SunflowerState extends State<Sunflower> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Sunflowers'),
+        title: Text(
+          'Sunflowers',
+          style: GoogleFonts.quicksand(),
+        ),
         centerTitle: true,
       ),
       body: Container(
@@ -93,7 +98,7 @@ class _SunflowerState extends State<Sunflower> {
             ),
             Text(
               "Showing $seedCount seeds",
-              style: TextStyle(color: Colors.white),
+              style: GoogleFonts.quicksand(color: Colors.white),
             ),
             ConstrainedBox(
               constraints: BoxConstraints.tightFor(width: 300),

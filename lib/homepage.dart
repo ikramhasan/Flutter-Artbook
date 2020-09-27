@@ -1,6 +1,7 @@
 import 'package:artbook/widgets/art_cards.dart';
 import 'package:artbook/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -14,8 +15,23 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Color(0xFF444974),
         elevation: 0,
-        title: Text('Flutter Artbook'),
+        title: Text(
+          'Flutter Artbook',
+          style: GoogleFonts.quicksand(),
+        ),
         centerTitle: true,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 10.0),
+            child: InkWell(
+              onTap: () {},
+              child: Icon(
+                Icons.info_outline,
+                size: 30,
+              ),
+            ),
+          ),
+        ],
       ),
       drawer: MyDrawer(),
       body: Container(
@@ -23,16 +39,16 @@ class _HomePageState extends State<HomePage> {
         color: Color(0xFF2D2F41),
         child: Column(
           children: [
-            SizedBox(height: 15),
+            SizedBox(height: 30),
             Text(
               'A Curated List of Generative Art Made With Flutter!',
-              style: TextStyle(
+              style: GoogleFonts.quicksand(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
                 color: Color(0xFFEAECFF),
               ),
             ),
-            SizedBox(height: 15),
+            SizedBox(height: 30),
             ArtCards(),
           ],
         ),
