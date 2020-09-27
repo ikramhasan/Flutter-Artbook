@@ -8,6 +8,7 @@ import 'package:artbook/arts/color_test.dart';
 import 'package:artbook/arts/dancing_phyllotaxis.dart';
 import 'package:artbook/arts/double_pendulum_simulation.dart';
 import 'package:artbook/arts/game_of_life.dart';
+import 'package:artbook/arts/long_shadow_animation.dart';
 import 'package:artbook/arts/neumorphic_clock.dart';
 import 'package:artbook/arts/particle_playground.dart';
 import 'package:artbook/arts/planet_simulator.dart';
@@ -251,6 +252,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Double Pendulum Simulation',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(LongShadowAnimationPage());
+              },
+              child: ListTile(
+                title: Text(
+                  'Long Shadow Animation',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),

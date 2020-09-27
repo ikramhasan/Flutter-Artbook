@@ -34,6 +34,8 @@ A collection of generative art made using Flutter and Dart. Some by others, some
 
 - BarBar Clock : [CodePen](https://codepen.io/team/codepen) for their [CodePen](https://codepen.io/team/codepen/pen/NWGxpzE)
 
-- Double Pendulum Simulation : [Abhilash](https://codepen.io/abhilas-csc) for their [CodePen](https://codepen.io/abhilas-csc/pen/qBOZKPj)
+- Double Pendulum Simulation : [Abhilash](https://codepen.io/abhilas-csc) for his [CodePen](https://codepen.io/abhilas-csc/pen/qBOZKPj)
+
+- Long Shadow Animation : [Jonatan](https://codepen.io/jonathan_monga) for his [CodePen](https://codepen.io/jonathan_monga/pen/qBOQWgp)
 
 - Paricle Playground : [creativecreatorormaybenot](https://codepen.io/creativecreatorormaybenot) for his [CodePen](https://codepen.io/creativecreatorormaybenot/pen/YzqKqpo)
