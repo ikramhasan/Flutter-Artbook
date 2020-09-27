@@ -1,5 +1,6 @@
 import 'package:artbook/arts/clock.dart';
 import 'package:artbook/arts/dancing_phyllotaxis.dart';
+import 'package:artbook/arts/spinnies.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -56,6 +57,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Dancing Phyllotaxis',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(SpinniesApp());
+              },
+              child: ListTile(
+                title: Text(
+                  'Spinnies',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),
