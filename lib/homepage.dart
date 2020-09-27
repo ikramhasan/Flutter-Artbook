@@ -1,5 +1,6 @@
 import 'package:artbook/arts/algrafx.dart';
 import 'package:artbook/arts/animated_circles.dart';
+import 'package:artbook/arts/barbar_clock.dart';
 import 'package:artbook/arts/clock_of_clocks.dart';
 import 'package:artbook/arts/boid_simulation.dart';
 import 'package:artbook/arts/clock.dart';
@@ -212,6 +213,18 @@ class _HomePageState extends State<HomePage> {
               child: ListTile(
                 title: Text(
                   'Neumorphic Clock',
+                  style: TextStyle(color: Color(0xFFEAECFF)),
+                ),
+              ),
+            ),
+            InkWell(
+              highlightColor: Color(0xFF444974),
+              onTap: () {
+                Get.to(BarBar());
+              },
+              child: ListTile(
+                title: Text(
+                  'BarBar Clock',
                   style: TextStyle(color: Color(0xFFEAECFF)),
                 ),
               ),

@@ -31,3 +31,5 @@ A collection of generative art made using Flutter and Dart. Some by others, some
 - Sunflower : [CodePen](https://codepen.io/team/codepen) for their [CodePen](https://codepen.io/team/codepen/pen/zYGwzYE)
 
 - Neumorphic Clock : [CodePen](https://codepen.io/team/codepen) for their [CodePen](https://codepen.io/team/codepen/pen/VwvepBW)
+- 
+- BarBar Clock : [CodePen](https://codepen.io/team/codepen) for their [CodePen](https://codepen.io/team/codepen/pen/NWGxpzE)
