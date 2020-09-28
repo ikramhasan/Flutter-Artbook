@@ -2,6 +2,7 @@ import 'package:artbook/screens.dart/about.dart';
 import 'package:artbook/widgets/art_cards.dart';
 import 'package:artbook/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -29,9 +30,11 @@ class _HomePageState extends State<HomePage> {
               onTap: () {
                 Get.to(About());
               },
-              child: Icon(
-                Icons.info_outline,
-                size: 30,
+              child: Center(
+                child: FaIcon(
+                  FontAwesomeIcons.infoCircle,
+                  size: 30,
+                ),
               ),
             ),
           ),
