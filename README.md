@@ -2,7 +2,12 @@
 
 A collection of generative art made using Flutter and Dart.
 
+## Website
+
+To see the app in action, click [here](https://ikramhasan.github.io/Flutter-Artbook/#/)
+
 ## App preview
+
 <br>
 
 <img src="screenshots/homepage.png" alt="drawing">
@@ -54,8 +59,6 @@ A collection of generative art made using Flutter and Dart.
 - Long Shadow Animation : [Jonatan](https://codepen.io/jonathan_monga) for his [CodePen](https://codepen.io/jonathan_monga/pen/qBOQWgp)
 
 - Paricle Playground : [creativecreatorormaybenot](https://codepen.io/creativecreatorormaybenot) for his [CodePen](https://codepen.io/creativecreatorormaybenot/pen/YzqKqpo)
-
-
 
 [1]: http://www.twitter.com/ikramhasandev
 [2]: http://www.facebook.com/ihni7/
