@@ -1,6 +1,8 @@
+import 'package:artbook/screens.dart/about.dart';
 import 'package:artbook/widgets/art_cards.dart';
 import 'package:artbook/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -24,7 +26,9 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: const EdgeInsets.only(right: 10.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Get.to(About());
+              },
               child: Icon(
                 Icons.info_outline,
                 size: 30,
