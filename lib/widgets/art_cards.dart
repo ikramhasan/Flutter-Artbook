@@ -1,4 +1,3 @@
-import 'package:artbook/arts/game_of_life.dart';
 import 'package:artbook/data/data.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,7 +14,11 @@ class ArtCards extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: (screenWidth > 1400)
                 ? 4
-                : (screenWidth > 980) ? 3 : (screenWidth > 650) ? 2 : 1),
+                : (screenWidth > 980)
+                    ? 3
+                    : (screenWidth > 650)
+                        ? 2
+                        : 1),
         itemCount: artList.length,
         itemBuilder: (context, index) {
           return Column(

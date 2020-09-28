@@ -8,7 +8,7 @@
 /// Find me on Twitter https://twitter.com/OrestesGaolin
 /// And my website https://roszkowski.dev/
 import 'dart:math' as math;
-import 'dart:html' as html;
+import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:flutter/src/scheduler/ticker.dart';
 import 'package:get/get.dart';
