@@ -1,6 +1,21 @@
 # Flutter-Artbook
 
-A collection of generative art made using Flutter and Dart. Some by others, some of my own.
+A collection of generative art made using Flutter and Dart.
+
+## App preview
+<br>
+
+<img src="screenshots/homepage.png" alt="drawing">
+
+## My Socials
+
+[![Twitter][1.1]][1]
+[![Facebook][2.1]][2]
+[![Github][3.1]][3]
+
+[1.1]: http://i.imgur.com/tXSoThF.png "twitter icon with padding"
+[2.1]: http://i.imgur.com/P3YfQoD.png "facebook icon with padding"
+[3.1]: http://i.imgur.com/0o48UoR.png "github icon with padding"
 
 ## Thanks
 
@@ -39,3 +54,9 @@ A collection of generative art made using Flutter and Dart. Some by others, some
 - Long Shadow Animation : [Jonatan](https://codepen.io/jonathan_monga) for his [CodePen](https://codepen.io/jonathan_monga/pen/qBOQWgp)
 
 - Paricle Playground : [creativecreatorormaybenot](https://codepen.io/creativecreatorormaybenot) for his [CodePen](https://codepen.io/creativecreatorormaybenot/pen/YzqKqpo)
+
+
+
+[1]: http://www.twitter.com/ikramhasandev
+[2]: http://www.facebook.com/ihni7/
+[3]: https://github.com/ikramhasan/
